@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 
+import { UserService } from './services/user.service';
+import { global } from './services/global';
+
 import { IconSetService } from '@coreui/icons-angular';
 import { freeSet } from '@coreui/icons';
 
