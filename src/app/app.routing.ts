@@ -79,8 +79,8 @@ export const routes: Routes = [
         loadChildren: () => import('./views/notifications/notifications.module').then(m => m.NotificationsModule)
       },
       {
-        path: 'theme',
-        loadChildren: () => import('./views/theme/theme.module').then(m => m.ThemeModule)
+        path: 'paciente',
+        loadChildren: () => import('./views/paciente/paciente.module').then(m => m.PacienteModule)
       },
       {
         path: 'widgets',

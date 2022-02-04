@@ -26,7 +26,7 @@ export const navItems: INavData[] = [
         url: '/base/collapses',
         icon: 'icon-puzzle'
       },
-      
+
     ]
   },
   {
@@ -53,7 +53,7 @@ export const navItems: INavData[] = [
     children: [
       {
         name: 'Pacientes',
-        url: '/icons/coreui-icons',
+        url: '/paciente',
         icon: 'icon-star'
       },
       {
@@ -68,6 +68,6 @@ export const navItems: INavData[] = [
       },
     ]
   },
-  
-  
+
+
 ];
